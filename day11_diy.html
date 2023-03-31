@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day11_diy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='preconnect' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./day11.css" />
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="row heading">
+                Breakfast places in Kolkata
+            </div>                
+            <div class="row">
+                <div class=" col-3 col-sm-12 col-md-4 col-lg-3">
+                    <div class="filterpanel"> 
+                        <div class="filterpanelheading">
+                            Filters
+                        </div>
+                        <div class="filterpanelsubheading">
+                            Select location
+                        </div>
+                        <select class="locationselection">
+                            <option disabled selected>Select Location</option>
+                            <option>Delhi</option>
+                            <option>Kolkata</option>
+                            <option>Mumbai</option>
+                            <option>Chennai</option>
+                            <option>Pune</option>
+                        </select>
+                        <div class="filterpanelsubheading">
+                            Cuisine
+                        </div> 
+                        <input type="checkbox" class="cuisineoption">  
+                            <label>North Indian</label> 
+                        </input>
+                        <br/>
+                        <input type="checkbox" class="cuisineoption">  
+                            <label>South Indian</label> 
+                        </input>
+                        <br/>
+                        <input type="checkbox" class="cuisineoption">  
+                            <label>Chinese</label> 
+                        </input>
+                        <br/>
+                        <input type="checkbox" class="cuisineoption">  
+                            <label>Fast Food</label> 
+                        </input>
+                        <br/>
+                        <input type="checkbox" class="cuisineoption">  
+                            <label>Street Food</label> 
+                        </input>
+                        <br/>
+                        <div class="filterpanelsubheading">
+                            Cost for two
+                        </div>
+                        <input type="radio" class="cuisineoption" name="cost">
+                            <label>Less than &#8377;500</label>
+                        </input>
+                        <br/>
+                        <input type="radio" class="cuisineoption" name="cost">
+                            <label>&#8377;1000 to &#8377;1500</label>
+                        </input>
+                        <br/> 
+                        <input type="radio" class="cuisineoption" name="cost">
+                            <label>&#8377;1500 to &#8377;2000</label>
+                        </input> 
+                        <br/>
+                        <input type="radio" class="cuisineoption" name="cost">
+                            <label>&#8377;2000+</label>
+                        </input>
+                        <br/>
+                        <div class="filterpanelsubheading">
+                            Sort
+                        </div>
+                        <input type="radio" class="cuisineoption" name="price">
+                            <label>Price low to high</label>
+                        </input>
+                        <br/>
+                        <input type="radio" class="cuisineoption" name="price">
+                            <label>Price high to low</label>
+                        </input>
+                    </div>    
+                </div>
+                <div class="col-9 col-sm-12 col-md-8 col-lg-9">
+                    <div class="resultspanel">  
+                        <div class="row uppersection">  
+                            <div class="col-2">
+                                <img src="./breakfast.jpg" class="resultsimage" />
+                            </div>
+                            <div class="col-10">
+                                <div class="resultsheading">The Big Chill Cake</div>
+                                <div class="resultssubheading">FORT</div>
+                                <div class="resultsaddress">shop 1, plot 1, Kolkata</div>
+                            </div>                          
+                        </div>  
+                        <hr/>
+                        <div class="row lowersection">
+                            <div class="col-2">
+                                <div class="resultsaddress">CUISINES</div>
+                                <div class="resultsaddress">COST FOR TWO</div>
+                            </div>   
+                            <div class="col-10">
+                                <div class="resultssubheading">Bakery</div>
+                                <div class="resultssubheading">&#8377;700</div>
+                            </div>                         
+                        </div>                    
+                    </div>
+                    <div class="resultspanel"> 
+                        <div class="row uppersection">  
+                            <div class="col-2">
+                                <img src="./breakfast.jpg" class="resultsimage" />
+                            </div>
+                            <div class="col-10">
+                                <div class="resultsheading">The Lalit</div>
+                                <div class="resultssubheading">FORT</div>
+                                <div class="resultsaddress">shop 1, plot 1, Kolkata</div>
+                            </div>                          
+                        </div>  
+                        <hr/>
+                        <div class="row lowersection">
+                            <div class="col-2">
+                                <div class="resultsaddress">CUISINES</div>
+                                <div class="resultsaddress">COST FOR TWO</div>
+                            </div>   
+                            <div class="col-10">
+                                <div class="resultssubheading">Bakery</div>
+                                <div class="resultssubheading">&#8377;700</div>
+                            </div>                         
+                        </div>                        
+                    </div>
+                    <div class="pagination">
+                        <div class="paginationbutton">1</div>
+                        <div class="paginationbutton">2</div>
+                        <div class="paginationbutton">3</div>
+                        <div class="paginationbutton">4</div>
+                        <div class="paginationbutton">5</div>
+                        <div class="paginationbutton">></div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

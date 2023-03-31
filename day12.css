@@ -1,0 +1,108 @@
+.container {
+    height: 400px;
+    width: 100%;   
+}
+
+#one {
+    background-color: tomato;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#two {
+    background-color: turquoise;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#three {
+    background-color: turquoise;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#four {
+    background-color: greenyellow;
+    height: 50px;
+    border: 1px solid black;
+    
+}
+
+#five {
+    background-color: greenyellow;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#six {
+    background-color: greenyellow;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#seven {
+    
+    height: 50px;
+}
+
+#eight {
+   
+    height: 50px;
+}
+
+#nine {
+   
+    height: 50px;
+}
+
+#ten {
+   
+    height: 50px;
+}
+
+#eleven {
+    
+    height: 50px;
+}
+
+#tweleve {
+    
+    height: 50px;
+}
+
+#thirteen {   
+    height: 50px;
+}
+
+#fourteen {    
+    height: 50px;
+}
+
+#fifteen {    
+    height: 50px;
+}
+
+#sixteen {   
+    height: 50px;
+}
+
+#seventeen {  
+    height: 50px;
+}
+
+#eighteen {   
+    height: 50px;
+}
+
+
+.box {
+    border:solid black;
+    height:48px;
+    width: 100%;
+    background-color: blue;
+
+}
+
+.one {
+    max-width: 200px;
+}

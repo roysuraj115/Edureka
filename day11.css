@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+
+.heading {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 20px 0;
+}
+
+.filterpanel {
+    height: 682px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    padding: 15px;    
+}
+
+.resultspanel {
+    height: 291px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-bottom: 30px;   
+}
+
+.filterpanelheading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.filterpanelsubheading {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 15px 0;
+}
+
+.locationselection {
+    height: 35px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #192f60;
+}
+
+.cuisineoption {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 10px;
+}
+
+.uppersection {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.lowersection {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.resultsimage {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.resultsheading{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.resultsubheading {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.resultsaddress {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 30%;
+}
+
+.paginationbutton {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+@media screen and (max-width:1220px) {
+    .resultsheading,.resultsubheading,.resultsaddress{
+        margin-left: 50px;
+    }
+
+    .lowersection {
+        padding-top: 0;
+    }
+
+    .lowersection,.resultsaddress {
+        margin-left: 0;
+        width: 100px;
+    }
+}
+    
